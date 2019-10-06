@@ -1,3 +1,29 @@
-.header {
+header {
   margin-top: 4rem;
+}
+
+.subheader {
+  font-size: 3.2rem;
+}
+
+.projects {
+  display: flex;
+  flex-flow: column;
+}
+
+.project-links {
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+}
+
+.project-links > li {
+  margin-right: 1.75rem;
+}
+
+.project-image {
+  display: block;
+  margin-bottom: 2rem;
+  height: 30rem;
 }
