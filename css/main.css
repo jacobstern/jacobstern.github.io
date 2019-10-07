@@ -11,6 +11,18 @@ header {
   flex-flow: column;
 }
 
+.header-links {
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  font-size: 1.75rem;
+}
+
+.header-links li {
+  margin-right: 1.75rem;
+}
+
 .project-links {
   margin-bottom: 0.75rem;
   display: flex;
@@ -18,7 +30,7 @@ header {
   list-style: none;
 }
 
-.project-links > li {
+.project-links li {
   margin-right: 1.75rem;
 }
 
