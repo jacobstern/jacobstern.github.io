@@ -21,7 +21,7 @@
       </header>
       <div class="projects">
         <section class="project">
-          <h2>TypeScript, Handlebars RealWorld implementation</h2>
+          <h2>TypeScript + Handlebars RealWorld implementation</h2>
           <img
             class="project-image"
             src="/img/handlebars-realworld.jpg"
@@ -53,6 +53,41 @@
               href="https://github.com/turbolinks/turbolinks/blob/master/README.md"
               >README</a
             >.
+          </p>
+        </section>
+        <section class="project">
+          <h2>Server-driven HTML templates over Socket.IO</h2>
+          <img
+            class="project-image"
+            src="/img/live-render-prototype.jpg"
+            alt="Screenshot of the LiveView prototype app"
+          />
+          <ul class="project-links">
+            <li>
+              <a href="https://live-render-prototype.herokuapp.com/"
+                >Prototype</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/jacobstern/live-render-prototype"
+                >Prototype source</a
+              >
+            </li>
+          </ul>
+          <p class="project-description">
+            Inspired by
+            <a href="https://github.com/phoenixframework/phoenix_live_view"
+              >Phoenix LiveView</a
+            >, I decided to explore server-driven live updates to Handlebars
+            templates over Socket.IO. In this prototype, updates to the UI are
+            managed by the server based on user interaction, and the client
+            library updates the rendered template efficiently using
+            <a href="https://github.com/patrick-steele-idem/morphdom"
+              >morphdom</a
+            >. This allows all UI logic to be managed by the server using the
+            same code, and obviates the need for a front-end framework for
+            simple scenarios. The prototype demonstrates use cases including
+            real-time streaming updates and inline form validation.
           </p>
         </section>
         <section class="project">
